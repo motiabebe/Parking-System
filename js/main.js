@@ -74,7 +74,7 @@ const displayVehicles = () => {
                 <td>${(Vehicles[vehicle].ownerPhone)}</td>
                 <td>${Vehicles[vehicle].timeParked[0]}:${Vehicles[vehicle].timeParked[1]}</td>
                 <td>
-                    <button class="btn btn-danger" type="button" onclick="removeVehicle('${vehicle}')">
+                    <button class="btn btn-danger" alt="remove" onclick="removeVehicle('${vehicle}')">
                         <i class="bi bi-trash"></i>
                     </button>
                 </td>
